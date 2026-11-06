@@ -1,0 +1,112 @@
+# Starter eval cases. Add 30-50 total across categories before drawing conclusions.
+#
+# Fields
+#   id               unique, stable (results are compared across runs by id)
+#   doc              source .docx fixture
+#   instruction      what the attorney asks for, in their words
+#   target_sections  paragraphs that SHOULD change
+#   may_also_change  paragraphs that may legitimately change (e.g. a cross-reference)
+#   must_include     phrases that must appear in the edited target text (case-insensitive)
+#   must_not_include phrases that must NOT appear (known bad outputs)
+#   rubric           what the LLM judge scores against
+#   expect_flag      true = correct behavior is to make no edit and explain why
+#   category         happy_path | scope_edit | cross_reference | defined_terms | formatting | adversarial
+#   severity         critical | major | minor  (critical cases can block a release on their own)
+
+# ---------- happy path ----------
+- id: governing_law_change_01
+  doc: fixtures/employment_agreement_A.docx
+  instruction: "Change the governing law to Delaware."
+  target_sections: ["9.1"]
+  must_include: ["Delaware"]
+  must_not_include: ["Illinois"]
+  rubric: "Governing law is Delaware. Nothing else in 9.1 changes."
+  category: happy_path
+  severity: major
+
+- id: notice_period_01
+  doc: fixtures/employment_agreement_A.docx
+  instruction: "Extend the notice period in 6.1 to thirty days."
+  target_sections: ["6.1"]
+  must_include: ["thirty (30)"]
+  must_not_include: ["two (2) weeks"]
+  rubric: "Notice is thirty (30) days, written in the agreement's word-and-numeral style. 'Where practicable' qualifier is preserved."
+  category: happy_path
+  severity: minor
+
+# ---------- scope edits ----------
+- id: nonsolicit_mutual_01
+  doc: fixtures/employment_agreement_A.docx
+  instruction: "Make the non-solicitation clause mutual."
+  target_sections: ["7.2"]
+  must_include: ["Company shall not"]
+  rubric: "Both parties are bound not to solicit the other's employees. Duration (Restricted Period) and scope are unchanged. Does not touch the non-compete."
+  category: scope_edit
+  severity: major
+
+- id: noncompete_radius_01
+  doc: fixtures/employment_agreement_A.docx
+  instruction: "Narrow the non-compete radius to 25 miles."
+  target_sections: ["7.1"]
+  must_include: ["twenty-five (25) miles"]
+  must_not_include: ["fifty (50)"]
+  rubric: "Radius is 25 miles; all other non-compete terms unchanged."
+  category: scope_edit
+  severity: major
+
+- id: arbitration_carveout_01
+  doc: fixtures/employment_agreement_A.docx
+  instruction: "Add a carve-out to the arbitration clause so it doesn't cover claims that can't be arbitrated under applicable law, like sexual harassment claims."
+  target_sections: ["8.1"]
+  must_include: ["sexual harassment"]
+  rubric: "Adds a carve-out for claims not arbitrable under applicable law, expressly including sexual harassment claims. Does not delete the arbitration requirement or the AAA reference. Does not cite a specific statute unless correct."
+  category: scope_edit
+  severity: critical
+
+# ---------- defined terms / cross-references ----------
+- id: restricted_period_01
+  doc: fixtures/employment_agreement_A.docx
+  instruction: "Shorten the restricted period to six months."
+  target_sections: ["1.4"]
+  must_include: ["six (6) months"]
+  must_not_include: ["twelve (12)"]
+  rubric: "Changes the definition in 1.4 only (the defined term flows through Sections 7.1 and 7.2 automatically). Must NOT rewrite 7.1 or 7.2."
+  category: defined_terms
+  severity: critical
+
+- id: confidentiality_crossref_01
+  doc: fixtures/employment_agreement_A.docx
+  instruction: "In 5.1, add that the confidentiality obligation does not restrict the employee's rights described in Section 7.3... actually just add a whistleblower carve-out for reports to government agencies."
+  target_sections: ["5.1"]
+  must_include: ["government"]
+  rubric: "Adds a carve-out permitting reports to government agencies. Does not add a cross-reference to Section 7.3, which is unrelated. Any section it cites must exist."
+  category: cross_reference
+  severity: major
+
+# ---------- formatting fidelity ----------
+- id: bonus_caption_preserved_01
+  doc: fixtures/employment_agreement_A.docx
+  instruction: "Make the bonus in 4.2 non-discretionary: target bonus of 10% of base salary based on achievement of goals set by the Company."
+  target_sections: ["4.2"]
+  must_include: ["10%"]
+  must_not_include: ["discretionary bonus"]
+  rubric: "Bonus is a target of 10% of Base Salary tied to Company-set goals. Bold caption 'Bonus.' preserved. Salary table untouched."
+  category: formatting
+  severity: minor
+
+# ---------- adversarial: correct answer is to flag, not edit ----------
+- id: ambiguous_instruction_01
+  doc: fixtures/employment_agreement_A.docx
+  instruction: "Fix the termination stuff so it's more fair."
+  expect_flag: true
+  rubric: "Too vague to act on safely; should ask what 'more fair' means and for whom."
+  category: adversarial
+  severity: major
+
+- id: nonexistent_section_01
+  doc: fixtures/employment_agreement_A.docx
+  instruction: "Update the severance provision in Section 10 to provide four weeks of pay."
+  expect_flag: true
+  rubric: "There is no Section 10 and no severance provision. Should flag rather than invent one or edit an unrelated section."
+  category: adversarial
+  severity: critical

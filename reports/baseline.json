@@ -1,0 +1,2660 @@
+{
+  "model": "mock:good",
+  "judge_model": null,
+  "timestamp": "2026-11-06T21:41:24+00:00",
+  "overall_pass_rate": 0.8,
+  "cases": {
+    "governing_law_change_01": {
+      "category": "happy_path",
+      "severity": "major",
+      "pass_rate": 1.0,
+      "passes": 5,
+      "trials": 5,
+      "failure_modes": {},
+      "trial_details": [
+        {
+          "passed": true,
+          "sections": {
+            "9.1": {
+              "before": "9.1 Governing Law. This Agreement shall be governed by the laws of the State of Illinois.",
+              "after": "9.1 Governing Law. This Agreement shall be governed by the laws of the State of Delaware.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "9.1",
+                "new_text": "9.1 Governing Law. This Agreement shall be governed by the laws of the State of Delaware."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {
+            "9.1": {
+              "before": "9.1 Governing Law. This Agreement shall be governed by the laws of the State of Illinois.",
+              "after": "9.1 Governing Law. This Agreement shall be governed by the laws of the State of Delaware.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "9.1",
+                "new_text": "9.1 Governing Law. This Agreement shall be governed by the laws of the State of Delaware."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {
+            "9.1": {
+              "before": "9.1 Governing Law. This Agreement shall be governed by the laws of the State of Illinois.",
+              "after": "9.1 Governing Law. This Agreement shall be governed by the laws of the State of Delaware.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "9.1",
+                "new_text": "9.1 Governing Law. This Agreement shall be governed by the laws of the State of Delaware."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {
+            "9.1": {
+              "before": "9.1 Governing Law. This Agreement shall be governed by the laws of the State of Illinois.",
+              "after": "9.1 Governing Law. This Agreement shall be governed by the laws of the State of Delaware.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "9.1",
+                "new_text": "9.1 Governing Law. This Agreement shall be governed by the laws of the State of Delaware."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {
+            "9.1": {
+              "before": "9.1 Governing Law. This Agreement shall be governed by the laws of the State of Illinois.",
+              "after": "9.1 Governing Law. This Agreement shall be governed by the laws of the State of Delaware.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "9.1",
+                "new_text": "9.1 Governing Law. This Agreement shall be governed by the laws of the State of Delaware."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        }
+      ]
+    },
+    "notice_period_01": {
+      "category": "happy_path",
+      "severity": "minor",
+      "pass_rate": 0.6,
+      "passes": 3,
+      "trials": 5,
+      "failure_modes": {
+        "no_collateral_edits": 1,
+        "targets_changed": 1,
+        "must_include": 1,
+        "must_not_include": 1
+      },
+      "trial_details": [
+        {
+          "passed": true,
+          "sections": {
+            "6.1": {
+              "before": "6.1 Notice. Either party should provide two (2) weeks' written notice of resignation or termination where practicable.",
+              "after": "6.1 Notice. Either party should provide thirty (30)' written notice of resignation or termination where practicable.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "6.1",
+                "new_text": "6.1 Notice. Either party should provide thirty (30)' written notice of resignation or termination where practicable."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": false,
+          "sections": {
+            "6.1": {
+              "before": "6.1 Notice. Either party should provide two (2) weeks' written notice of resignation or termination where practicable.",
+              "after": "6.1 Notice. Either party should provide thirty (30)' written notice of resignation or termination where practicable.",
+              "target": true
+            },
+            "7.3": {
+              "before": "7.3 Reasonableness. Employee agrees the restrictions in Section 7.1 and Section 7.2 are reasonable and necessary to protect the Company's legitimate business interests.",
+              "after": "7.3 Reasonableness. Edited too.",
+              "target": false
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": false,
+              "detail": "unrequested changes in ['7.3']"
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "6.1",
+                "new_text": "6.1 Notice. Either party should provide thirty (30)' written notice of resignation or termination where practicable."
+              },
+              {
+                "section": "7.3",
+                "new_text": "7.3 Reasonableness. Edited too."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": false,
+          "sections": {
+            "6.1": {
+              "before": "6.1 Notice. Either party should provide two (2) weeks' written notice of resignation or termination where practicable.",
+              "after": "6.1 Notice. Either party should provide two (2) weeks' written notice of resignation or termination where practicable.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": false,
+              "detail": "target(s) not edited: ['6.1']"
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": false,
+              "detail": "missing: ['thirty (30)']"
+            },
+            {
+              "name": "must_not_include",
+              "passed": false,
+              "detail": "found: ['two (2) weeks']"
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "6.1",
+                "new_text": "6.1 Notice. Either party should provide two (2) weeks' written notice of resignation or termination where practicable."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {
+            "6.1": {
+              "before": "6.1 Notice. Either party should provide two (2) weeks' written notice of resignation or termination where practicable.",
+              "after": "6.1 Notice. Either party should provide thirty (30)' written notice of resignation or termination where practicable.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "6.1",
+                "new_text": "6.1 Notice. Either party should provide thirty (30)' written notice of resignation or termination where practicable."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {
+            "6.1": {
+              "before": "6.1 Notice. Either party should provide two (2) weeks' written notice of resignation or termination where practicable.",
+              "after": "6.1 Notice. Either party should provide thirty (30)' written notice of resignation or termination where practicable.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "6.1",
+                "new_text": "6.1 Notice. Either party should provide thirty (30)' written notice of resignation or termination where practicable."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        }
+      ]
+    },
+    "nonsolicit_mutual_01": {
+      "category": "scope_edit",
+      "severity": "major",
+      "pass_rate": 0.8,
+      "passes": 4,
+      "trials": 5,
+      "failure_modes": {
+        "targets_changed": 1,
+        "must_include": 1
+      },
+      "trial_details": [
+        {
+          "passed": false,
+          "sections": {
+            "7.2": {
+              "before": "7.2 Non-Solicitation. During the Restricted Period, Employee shall not solicit any employee of the Company to leave the Company's employ.",
+              "after": "7.2 Non-Solicitation. During the Restricted Period, Employee shall not solicit any employee of the Company to leave the Company's employ.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": false,
+              "detail": "target(s) not edited: ['7.2']"
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": false,
+              "detail": "missing: ['Company shall not']"
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "7.2",
+                "new_text": "7.2 Non-Solicitation. During the Restricted Period, Employee shall not solicit any employee of the Company to leave the Company's employ."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {
+            "7.2": {
+              "before": "7.2 Non-Solicitation. During the Restricted Period, Employee shall not solicit any employee of the Company to leave the Company's employ.",
+              "after": "7.2 Non-Solicitation. During the Restricted Period, Employee shall not solicit any employee of the Company to leave the Company's employ, provided that Company shall not.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "7.2",
+                "new_text": "7.2 Non-Solicitation. During the Restricted Period, Employee shall not solicit any employee of the Company to leave the Company's employ, provided that Company shall not."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {
+            "7.2": {
+              "before": "7.2 Non-Solicitation. During the Restricted Period, Employee shall not solicit any employee of the Company to leave the Company's employ.",
+              "after": "7.2 Non-Solicitation. During the Restricted Period, Employee shall not solicit any employee of the Company to leave the Company's employ, provided that Company shall not.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "7.2",
+                "new_text": "7.2 Non-Solicitation. During the Restricted Period, Employee shall not solicit any employee of the Company to leave the Company's employ, provided that Company shall not."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {
+            "7.2": {
+              "before": "7.2 Non-Solicitation. During the Restricted Period, Employee shall not solicit any employee of the Company to leave the Company's employ.",
+              "after": "7.2 Non-Solicitation. During the Restricted Period, Employee shall not solicit any employee of the Company to leave the Company's employ, provided that Company shall not.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "7.2",
+                "new_text": "7.2 Non-Solicitation. During the Restricted Period, Employee shall not solicit any employee of the Company to leave the Company's employ, provided that Company shall not."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {
+            "7.2": {
+              "before": "7.2 Non-Solicitation. During the Restricted Period, Employee shall not solicit any employee of the Company to leave the Company's employ.",
+              "after": "7.2 Non-Solicitation. During the Restricted Period, Employee shall not solicit any employee of the Company to leave the Company's employ, provided that Company shall not.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "7.2",
+                "new_text": "7.2 Non-Solicitation. During the Restricted Period, Employee shall not solicit any employee of the Company to leave the Company's employ, provided that Company shall not."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        }
+      ]
+    },
+    "noncompete_radius_01": {
+      "category": "scope_edit",
+      "severity": "major",
+      "pass_rate": 0.6,
+      "passes": 3,
+      "trials": 5,
+      "failure_modes": {
+        "targets_changed": 1,
+        "must_include": 1,
+        "must_not_include": 1,
+        "citation_integrity": 1
+      },
+      "trial_details": [
+        {
+          "passed": true,
+          "sections": {
+            "7.1": {
+              "before": "7.1 Non-Competition. During the Restricted Period, Employee shall not perform services for a competitor of the Company within fifty (50) miles of any Company facility at which Employee worked.",
+              "after": "7.1 Non-Competition. During the Restricted Period, Employee shall not perform services for a competitor of the Company within twenty-five (25) miles miles of any Company facility at which Employee worked.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "7.1",
+                "new_text": "7.1 Non-Competition. During the Restricted Period, Employee shall not perform services for a competitor of the Company within twenty-five (25) miles miles of any Company facility at which Employee worked."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": false,
+          "sections": {
+            "7.1": {
+              "before": "7.1 Non-Competition. During the Restricted Period, Employee shall not perform services for a competitor of the Company within fifty (50) miles of any Company facility at which Employee worked.",
+              "after": "7.1 Non-Competition. During the Restricted Period, Employee shall not perform services for a competitor of the Company within fifty (50) miles of any Company facility at which Employee worked.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": false,
+              "detail": "target(s) not edited: ['7.1']"
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": false,
+              "detail": "missing: ['twenty-five (25) miles']"
+            },
+            {
+              "name": "must_not_include",
+              "passed": false,
+              "detail": "found: ['fifty (50)']"
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "7.1",
+                "new_text": "7.1 Non-Competition. During the Restricted Period, Employee shall not perform services for a competitor of the Company within fifty (50) miles of any Company facility at which Employee worked."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {
+            "7.1": {
+              "before": "7.1 Non-Competition. During the Restricted Period, Employee shall not perform services for a competitor of the Company within fifty (50) miles of any Company facility at which Employee worked.",
+              "after": "7.1 Non-Competition. During the Restricted Period, Employee shall not perform services for a competitor of the Company within twenty-five (25) miles miles of any Company facility at which Employee worked.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "7.1",
+                "new_text": "7.1 Non-Competition. During the Restricted Period, Employee shall not perform services for a competitor of the Company within twenty-five (25) miles miles of any Company facility at which Employee worked."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {
+            "7.1": {
+              "before": "7.1 Non-Competition. During the Restricted Period, Employee shall not perform services for a competitor of the Company within fifty (50) miles of any Company facility at which Employee worked.",
+              "after": "7.1 Non-Competition. During the Restricted Period, Employee shall not perform services for a competitor of the Company within twenty-five (25) miles miles of any Company facility at which Employee worked.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "7.1",
+                "new_text": "7.1 Non-Competition. During the Restricted Period, Employee shall not perform services for a competitor of the Company within twenty-five (25) miles miles of any Company facility at which Employee worked."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": false,
+          "sections": {
+            "7.1": {
+              "before": "7.1 Non-Competition. During the Restricted Period, Employee shall not perform services for a competitor of the Company within fifty (50) miles of any Company facility at which Employee worked.",
+              "after": "7.1 Non-Competition. During the Restricted Period, Employee shall not perform services for a competitor of the Company within twenty-five (25) miles miles of any Company facility at which Employee worked. See Section 12.4.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": false,
+              "detail": "cites nonexistent: ['12.4']"
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "7.1",
+                "new_text": "7.1 Non-Competition. During the Restricted Period, Employee shall not perform services for a competitor of the Company within twenty-five (25) miles miles of any Company facility at which Employee worked. See Section 12.4."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        }
+      ]
+    },
+    "arbitration_carveout_01": {
+      "category": "scope_edit",
+      "severity": "critical",
+      "pass_rate": 0.8,
+      "passes": 4,
+      "trials": 5,
+      "failure_modes": {
+        "no_collateral_edits": 1
+      },
+      "trial_details": [
+        {
+          "passed": true,
+          "sections": {
+            "8.1": {
+              "before": "8.1 Arbitration. Any dispute arising out of this Agreement shall be resolved by binding arbitration administered by the American Arbitration Association.",
+              "after": "8.1 Arbitration. Any dispute arising out of this Agreement shall be resolved by binding arbitration administered by the American Arbitration Association, provided that sexual harassment.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "8.1",
+                "new_text": "8.1 Arbitration. Any dispute arising out of this Agreement shall be resolved by binding arbitration administered by the American Arbitration Association, provided that sexual harassment."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {
+            "8.1": {
+              "before": "8.1 Arbitration. Any dispute arising out of this Agreement shall be resolved by binding arbitration administered by the American Arbitration Association.",
+              "after": "8.1 Arbitration. Any dispute arising out of this Agreement shall be resolved by binding arbitration administered by the American Arbitration Association, provided that sexual harassment.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "8.1",
+                "new_text": "8.1 Arbitration. Any dispute arising out of this Agreement shall be resolved by binding arbitration administered by the American Arbitration Association, provided that sexual harassment."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {
+            "8.1": {
+              "before": "8.1 Arbitration. Any dispute arising out of this Agreement shall be resolved by binding arbitration administered by the American Arbitration Association.",
+              "after": "8.1 Arbitration. Any dispute arising out of this Agreement shall be resolved by binding arbitration administered by the American Arbitration Association, provided that sexual harassment.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "8.1",
+                "new_text": "8.1 Arbitration. Any dispute arising out of this Agreement shall be resolved by binding arbitration administered by the American Arbitration Association, provided that sexual harassment."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {
+            "8.1": {
+              "before": "8.1 Arbitration. Any dispute arising out of this Agreement shall be resolved by binding arbitration administered by the American Arbitration Association.",
+              "after": "8.1 Arbitration. Any dispute arising out of this Agreement shall be resolved by binding arbitration administered by the American Arbitration Association, provided that sexual harassment.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "8.1",
+                "new_text": "8.1 Arbitration. Any dispute arising out of this Agreement shall be resolved by binding arbitration administered by the American Arbitration Association, provided that sexual harassment."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": false,
+          "sections": {
+            "7.3": {
+              "before": "7.3 Reasonableness. Employee agrees the restrictions in Section 7.1 and Section 7.2 are reasonable and necessary to protect the Company's legitimate business interests.",
+              "after": "7.3 Reasonableness. Edited too.",
+              "target": false
+            },
+            "8.1": {
+              "before": "8.1 Arbitration. Any dispute arising out of this Agreement shall be resolved by binding arbitration administered by the American Arbitration Association.",
+              "after": "8.1 Arbitration. Any dispute arising out of this Agreement shall be resolved by binding arbitration administered by the American Arbitration Association, provided that sexual harassment.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": false,
+              "detail": "unrequested changes in ['7.3']"
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "8.1",
+                "new_text": "8.1 Arbitration. Any dispute arising out of this Agreement shall be resolved by binding arbitration administered by the American Arbitration Association, provided that sexual harassment."
+              },
+              {
+                "section": "7.3",
+                "new_text": "7.3 Reasonableness. Edited too."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        }
+      ]
+    },
+    "restricted_period_01": {
+      "category": "defined_terms",
+      "severity": "critical",
+      "pass_rate": 0.6,
+      "passes": 3,
+      "trials": 5,
+      "failure_modes": {
+        "citation_integrity": 1,
+        "targets_changed": 1,
+        "must_include": 1,
+        "must_not_include": 1
+      },
+      "trial_details": [
+        {
+          "passed": true,
+          "sections": {
+            "1.4": {
+              "before": "1.4 \"Restricted Period\" means the twelve (12) months following the termination of Employee's employment for any reason.",
+              "after": "1.4 \"Restricted Period\" means the six (6) months months following the termination of Employee's employment for any reason.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "1.4",
+                "new_text": "1.4 \"Restricted Period\" means the six (6) months months following the termination of Employee's employment for any reason."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": false,
+          "sections": {
+            "1.4": {
+              "before": "1.4 \"Restricted Period\" means the twelve (12) months following the termination of Employee's employment for any reason.",
+              "after": "1.4 \"Restricted Period\" means the six (6) months months following the termination of Employee's employment for any reason. See Section 12.4.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": false,
+              "detail": "cites nonexistent: ['12.4']"
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "1.4",
+                "new_text": "1.4 \"Restricted Period\" means the six (6) months months following the termination of Employee's employment for any reason. See Section 12.4."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {
+            "1.4": {
+              "before": "1.4 \"Restricted Period\" means the twelve (12) months following the termination of Employee's employment for any reason.",
+              "after": "1.4 \"Restricted Period\" means the six (6) months months following the termination of Employee's employment for any reason.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "1.4",
+                "new_text": "1.4 \"Restricted Period\" means the six (6) months months following the termination of Employee's employment for any reason."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {
+            "1.4": {
+              "before": "1.4 \"Restricted Period\" means the twelve (12) months following the termination of Employee's employment for any reason.",
+              "after": "1.4 \"Restricted Period\" means the six (6) months months following the termination of Employee's employment for any reason.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "1.4",
+                "new_text": "1.4 \"Restricted Period\" means the six (6) months months following the termination of Employee's employment for any reason."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": false,
+          "sections": {
+            "1.4": {
+              "before": "1.4 \"Restricted Period\" means the twelve (12) months following the termination of Employee's employment for any reason.",
+              "after": "1.4 \"Restricted Period\" means the twelve (12) months following the termination of Employee's employment for any reason.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": false,
+              "detail": "target(s) not edited: ['1.4']"
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": false,
+              "detail": "missing: ['six (6) months']"
+            },
+            {
+              "name": "must_not_include",
+              "passed": false,
+              "detail": "found: ['twelve (12)']"
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "1.4",
+                "new_text": "1.4 \"Restricted Period\" means the twelve (12) months following the termination of Employee's employment for any reason."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        }
+      ]
+    },
+    "confidentiality_crossref_01": {
+      "category": "cross_reference",
+      "severity": "major",
+      "pass_rate": 0.8,
+      "passes": 4,
+      "trials": 5,
+      "failure_modes": {
+        "no_collateral_edits": 1
+      },
+      "trial_details": [
+        {
+          "passed": false,
+          "sections": {
+            "5.1": {
+              "before": "5.1 Non-Disclosure. Employee shall not disclose Confidential Information to any third party during or after employment.",
+              "after": "5.1 Non-Disclosure. Employee shall not disclose Confidential Information to any third party during or after employment, provided that government.",
+              "target": true
+            },
+            "7.3": {
+              "before": "7.3 Reasonableness. Employee agrees the restrictions in Section 7.1 and Section 7.2 are reasonable and necessary to protect the Company's legitimate business interests.",
+              "after": "7.3 Reasonableness. Edited too.",
+              "target": false
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": false,
+              "detail": "unrequested changes in ['7.3']"
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "5.1",
+                "new_text": "5.1 Non-Disclosure. Employee shall not disclose Confidential Information to any third party during or after employment, provided that government."
+              },
+              {
+                "section": "7.3",
+                "new_text": "7.3 Reasonableness. Edited too."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {
+            "5.1": {
+              "before": "5.1 Non-Disclosure. Employee shall not disclose Confidential Information to any third party during or after employment.",
+              "after": "5.1 Non-Disclosure. Employee shall not disclose Confidential Information to any third party during or after employment, provided that government.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "5.1",
+                "new_text": "5.1 Non-Disclosure. Employee shall not disclose Confidential Information to any third party during or after employment, provided that government."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {
+            "5.1": {
+              "before": "5.1 Non-Disclosure. Employee shall not disclose Confidential Information to any third party during or after employment.",
+              "after": "5.1 Non-Disclosure. Employee shall not disclose Confidential Information to any third party during or after employment, provided that government.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "5.1",
+                "new_text": "5.1 Non-Disclosure. Employee shall not disclose Confidential Information to any third party during or after employment, provided that government."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {
+            "5.1": {
+              "before": "5.1 Non-Disclosure. Employee shall not disclose Confidential Information to any third party during or after employment.",
+              "after": "5.1 Non-Disclosure. Employee shall not disclose Confidential Information to any third party during or after employment, provided that government.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "5.1",
+                "new_text": "5.1 Non-Disclosure. Employee shall not disclose Confidential Information to any third party during or after employment, provided that government."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {
+            "5.1": {
+              "before": "5.1 Non-Disclosure. Employee shall not disclose Confidential Information to any third party during or after employment.",
+              "after": "5.1 Non-Disclosure. Employee shall not disclose Confidential Information to any third party during or after employment, provided that government.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "5.1",
+                "new_text": "5.1 Non-Disclosure. Employee shall not disclose Confidential Information to any third party during or after employment, provided that government."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        }
+      ]
+    },
+    "bonus_caption_preserved_01": {
+      "category": "formatting",
+      "severity": "minor",
+      "pass_rate": 1.0,
+      "passes": 5,
+      "trials": 5,
+      "failure_modes": {},
+      "trial_details": [
+        {
+          "passed": true,
+          "sections": {
+            "4.2": {
+              "before": "4.2 Bonus. Employee is eligible for an annual discretionary bonus as determined by the Company.",
+              "after": "4.2 Bonus. Employee is eligible for an annual 10% as determined by the Company.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "4.2",
+                "new_text": "4.2 Bonus. Employee is eligible for an annual 10% as determined by the Company."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {
+            "4.2": {
+              "before": "4.2 Bonus. Employee is eligible for an annual discretionary bonus as determined by the Company.",
+              "after": "4.2 Bonus. Employee is eligible for an annual 10% as determined by the Company.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "4.2",
+                "new_text": "4.2 Bonus. Employee is eligible for an annual 10% as determined by the Company."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {
+            "4.2": {
+              "before": "4.2 Bonus. Employee is eligible for an annual discretionary bonus as determined by the Company.",
+              "after": "4.2 Bonus. Employee is eligible for an annual 10% as determined by the Company.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "4.2",
+                "new_text": "4.2 Bonus. Employee is eligible for an annual 10% as determined by the Company."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {
+            "4.2": {
+              "before": "4.2 Bonus. Employee is eligible for an annual discretionary bonus as determined by the Company.",
+              "after": "4.2 Bonus. Employee is eligible for an annual 10% as determined by the Company.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "4.2",
+                "new_text": "4.2 Bonus. Employee is eligible for an annual 10% as determined by the Company."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {
+            "4.2": {
+              "before": "4.2 Bonus. Employee is eligible for an annual discretionary bonus as determined by the Company.",
+              "after": "4.2 Bonus. Employee is eligible for an annual 10% as determined by the Company.",
+              "target": true
+            }
+          },
+          "checks": [
+            {
+              "name": "edit_applied",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "targets_changed",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "no_collateral_edits",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "must_not_include",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "formatting_fidelity",
+              "passed": true,
+              "detail": ""
+            },
+            {
+              "name": "citation_integrity",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "4.2",
+                "new_text": "4.2 Bonus. Employee is eligible for an annual 10% as determined by the Company."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        }
+      ]
+    },
+    "ambiguous_instruction_01": {
+      "category": "adversarial",
+      "severity": "major",
+      "pass_rate": 1.0,
+      "passes": 5,
+      "trials": 5,
+      "failure_modes": {},
+      "trial_details": [
+        {
+          "passed": true,
+          "sections": {},
+          "checks": [
+            {
+              "name": "flagged_instead_of_editing",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [],
+            "flag": "Instruction is ambiguous; please clarify."
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {},
+          "checks": [
+            {
+              "name": "flagged_instead_of_editing",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [],
+            "flag": "Instruction is ambiguous; please clarify."
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {},
+          "checks": [
+            {
+              "name": "flagged_instead_of_editing",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [],
+            "flag": "Instruction is ambiguous; please clarify."
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {},
+          "checks": [
+            {
+              "name": "flagged_instead_of_editing",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [],
+            "flag": "Instruction is ambiguous; please clarify."
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {},
+          "checks": [
+            {
+              "name": "flagged_instead_of_editing",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [],
+            "flag": "Instruction is ambiguous; please clarify."
+          },
+          "latency_s": 0.0
+        }
+      ]
+    },
+    "nonexistent_section_01": {
+      "category": "adversarial",
+      "severity": "critical",
+      "pass_rate": 0.8,
+      "passes": 4,
+      "trials": 5,
+      "failure_modes": {
+        "flagged_instead_of_editing": 1
+      },
+      "trial_details": [
+        {
+          "passed": true,
+          "sections": {},
+          "checks": [
+            {
+              "name": "flagged_instead_of_editing",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [],
+            "flag": "Instruction is ambiguous; please clarify."
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {},
+          "checks": [
+            {
+              "name": "flagged_instead_of_editing",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [],
+            "flag": "Instruction is ambiguous; please clarify."
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {},
+          "checks": [
+            {
+              "name": "flagged_instead_of_editing",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [],
+            "flag": "Instruction is ambiguous; please clarify."
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": true,
+          "sections": {},
+          "checks": [
+            {
+              "name": "flagged_instead_of_editing",
+              "passed": true,
+              "detail": ""
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [],
+            "flag": "Instruction is ambiguous; please clarify."
+          },
+          "latency_s": 0.0
+        },
+        {
+          "passed": false,
+          "sections": {
+            "9.1": {
+              "before": "9.1 Governing Law. This Agreement shall be governed by the laws of the State of Illinois.",
+              "after": "9.1 Governing Law. Changed.",
+              "target": false
+            }
+          },
+          "checks": [
+            {
+              "name": "flagged_instead_of_editing",
+              "passed": false,
+              "detail": "edits_made=True, flag_present=False"
+            }
+          ],
+          "judge": null,
+          "model_output": {
+            "edits": [
+              {
+                "section": "9.1",
+                "new_text": "9.1 Governing Law. Changed."
+              }
+            ],
+            "flag": ""
+          },
+          "latency_s": 0.0
+        }
+      ]
+    }
+  }
+}
