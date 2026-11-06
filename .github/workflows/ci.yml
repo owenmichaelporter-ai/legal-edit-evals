@@ -1,0 +1,66 @@
+# Two layers:
+#  1. grader-tests: every push/PR. Fast, free, no API key. Tests the graders
+#     and runs a smoke eval against the offline mock model.
+#  2. model-eval: nightly + manual. Calls the real model, compares against the
+#     committed baseline, and FAILS (blocks release) if the gate trips.
+name: QA
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "17 8 * * *"        # nightly, 08:17 UTC
+  workflow_dispatch:
+    inputs:
+      model:
+        description: "Model under test"
+        default: "claude-sonnet-5-5"
+      trials:
+        description: "Trials per case"
+        default: "5"
+
+jobs:
+  grader-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -r requirements.txt
+      - run: python fixtures/make_fixtures.py
+      - run: pytest -q
+      - name: Smoke eval (offline mock model)
+        run: python runner.py --model mock:good --trials 3 --out reports/smoke.json
+
+  model-eval:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    needs: grader-tests
+    runs-on: ubuntu-latest
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -r requirements.txt
+      - run: python fixtures/make_fixtures.py
+      - name: Run eval
+        run: |
+          python runner.py \
+            --model "${{ inputs.model || 'claude-sonnet-5-5' }}" \
+            --trials "${{ inputs.trials || '5' }}" \
+            --judge-model claude-haiku-5-5 \
+            --out reports/candidate.json
+      - name: Release gate vs baseline
+        run: python compare.py reports/baseline.json reports/candidate.json --markdown reports/diff.md
+      - name: Build HTML report
+        if: always()
+        run: python report.py reports/candidate.json --baseline reports/baseline.json || true
+      - name: Post comparison to job summary
+        if: always()
+        run: cat reports/diff.md >> "$GITHUB_STEP_SUMMARY" || true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: eval-reports
+          path: reports/
